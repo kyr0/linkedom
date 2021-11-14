@@ -45,6 +45,6 @@ class Text extends CharacterData {
       return escape(this[VALUE]);
     }
     return this[VALUE];
-   }
+  }
 }
 exports.Text = Text

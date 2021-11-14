@@ -12,7 +12,7 @@ const {JSXDocument} = require('../jsx/document.js');
  */
 class DOMParser {
 
-  /** @typedef {{ "text/html": HTMLDocument, "image/svg+xml": SVGDocument, "text/xml": XMLDocument }} MimeToDoc */
+  /** @typedef {{ "text/html": HTMLDocument, "image/svg+xml": SVGDocument, "text/xml": XMLDocument, "text/jsx+xml": JSXDocument }} MimeToDoc */
   /**
    * @template {keyof MimeToDoc} MIME
    * @param {string} markupLanguage

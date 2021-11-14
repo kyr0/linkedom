@@ -1,5 +1,4 @@
 'use strict';
-const {MIME} = require('../shared/symbols.js');
 const {Document} = require('../interface/document.js');
 
 /**

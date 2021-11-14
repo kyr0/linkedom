@@ -3,7 +3,6 @@
 // /^(?:plaintext|script|style|textarea|title|xmp)$/i
 
 const voidElements = {test: () => true};
-
 const Mime = {
   'text/html': {
     docType: '<!DOCTYPE html>',
@@ -41,6 +40,6 @@ const Mime = {
     escapeHtmlEntities: false,
     unquotedJsonAttributes: true,
     voidElements
-  },
+  }
 };
 exports.Mime = Mime;
